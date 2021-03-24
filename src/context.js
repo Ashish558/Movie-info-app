@@ -23,13 +23,13 @@ const AppProvider=({children})=>{
        const response= await fetch(url)
        const responseData= await response.json()
        setData(responseData)
-       setLoading(false)
-       console.log(url)
+       setLoading(false)   
     }
     catch(error){
         setLoading(false)
         setErrorMsg(error.message)
-        console.log(error.message)
+        console.log(error)  
+        console.log(url)
     }
  } 
 
