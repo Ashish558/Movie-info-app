@@ -28,7 +28,7 @@ const AppProvider=({children})=>{
     catch(error){
         setLoading(false)
         setErrorMsg(error.message)
-        alert(error.message)
+        console.log(error)
     }
  } 
 
@@ -47,7 +47,6 @@ const specificSearch= async (title)=>{
        setErrorMsg(error.message)
    }
 } 
-/*searching pages*/
 
 React.useEffect(()=>{
   if(searchItem !==""){
