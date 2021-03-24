@@ -15,7 +15,7 @@ function Status(){
     if(errorMsg){
        return(
          <MainContainer text="Check internet connection & try again" />
-         alert(errorMsg)
+       
        )
     }
     
