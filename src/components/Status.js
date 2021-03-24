@@ -15,15 +15,14 @@ function Status(){
     if(errorMsg){
        return(
          <MainContainer text="Check internet connection and try again" />
+         alert(errorMsg)
        )
     }
-    /*  / */
     
     if(data.Response==="False"){
        return <MainContainer text="Search for a valid movie" />
     }
     
-    /*  / */
     
     if(data.Response==="True"){
        return <MovieList />
