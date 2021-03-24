@@ -20,6 +20,7 @@ const AppProvider=({children})=>{
       setLoading(true)
       setErrorMsg("")
        const url =`http://www.omdbapi.com/?s=${inputValue}&apikey=363dddec`  
+       console.log(url)
        const response= await fetch(url)
        const responseData= await response.json()
        setData(responseData)
@@ -29,7 +30,7 @@ const AppProvider=({children})=>{
         setLoading(false)
         setErrorMsg(error.message)
         console.log(error)  
-        console.log(url)
+        
     }
  } 
 
