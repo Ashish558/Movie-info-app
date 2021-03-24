@@ -28,6 +28,7 @@ const AppProvider=({children})=>{
     catch(error){
         setLoading(false)
         setErrorMsg(error.message)
+        alert(error.message)
     }
  } 
 
