@@ -38,7 +38,7 @@ const specificSearch= async (title)=>{
    try{
      setLoading(true)
      setErrorMsg("")
-      const url =`http://www.omdbapi.com/?t=${title}&apikey=363dddec`  
+      const url =`https://www.omdbapi.com/?t=${title}&apikey=363dddec`  
       const response= await fetch(url)
       const responseData= await response.json()
       setSpecificData(responseData)
@@ -56,7 +56,7 @@ React.useEffect(()=>{
       try{
        setLoading(true)
        setErrorMsg("")
-        const url =`http://www.omdbapi.com/?s=${searchItem}&page=${currentPage}&apikey=363dddec`  
+        const url =`https://www.omdbapi.com/?s=${searchItem}&page=${currentPage}&apikey=363dddec`  
         const response= await fetch(url)
         const responseData= await response.json()
         setData(responseData)
