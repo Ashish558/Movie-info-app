@@ -16,11 +16,11 @@ list-style:none;
 
 @font-face {
   font-family:Montserrat;
-  src: url(./fonts/Montserrat-Medium.ttf);
+  src: url(./Montserrat-Medium.ttf);
 }
 @font-face {
   font-family:Poppins;
-  src: url(./fonts/Poppins-Regular.ttf);
+  src: url(./Poppins-Regular.ttf);
 }
 
 body{
