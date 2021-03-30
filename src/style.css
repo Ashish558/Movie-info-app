@@ -30,10 +30,10 @@ background:rgba(10,10,10);
 /*  navbar  */
 .nav-header{
 background:#e9967a;
+
 padding:0.5rem;
 display:flex;
 align-items:center;
-
 }
 .nav-header .nav-container{
 padding:0;
@@ -41,7 +41,6 @@ margin:0;
 display:flex;
 justify-content:center;
 align-items:center;
-
 }
 nav .lists{
 margin:0;
@@ -186,8 +185,8 @@ font-size:1.1rem;
 color:#dbe9f4;
 }
 
-
 /*  LOADING  */
+
 .loading-container ,
 .main-container 
 {
