@@ -10,7 +10,7 @@ const Movies=({imdbID, Title, Year, Poster, Type})=>{
  
  return(
    <div className="card-body">
-      <img className="card-img-top" src={Poster} alt="Movie Poster" />               
+      <img className="card-img" src={Poster} alt="Movie Poster" />               
       <h4 className="card-title">{Title}</h4>
       <p className="card-text year">{Year}</p>
       <p className="card-text">{Type}</p>
