@@ -44,7 +44,7 @@ function MovieList(){
             return( 
             <motion.div 
               variants={childVariants}            
-              className="card col-lg-4 col-md-4 col-sm-4 text-center">
+              className="card col-lg-4 col-md-4 col-sm-6 text-center">
                  <Movies key={movie.imbdID} {...movie} />
            </motion.div>
              )
