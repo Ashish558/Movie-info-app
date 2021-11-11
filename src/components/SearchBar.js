@@ -6,7 +6,7 @@ import {useGlobalContext} from '../context'
 function SearchBar(){
  const {search, inputValue, setInputValue} = useGlobalContext()
  return(
-  <div className="search-bar-container container" >
+  <div className="search-bar-container container row" >
      <input className="input" 
                   placeholder="search.."
                   value={inputValue}
