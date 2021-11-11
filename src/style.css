@@ -71,6 +71,7 @@ nav .lists img {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
 }
 
 .search-bar-container input {
@@ -79,6 +80,7 @@ nav .lists img {
   padding: 0.5rem;
   border: 0;
   border-bottom: 1.5px solid black;
+   margin-bottom: 0.75rem;
 }
 
 .search-bar-container button {
@@ -91,6 +93,7 @@ nav .lists img {
   background: transparent;
   border: 2px solid #d47b5d;
   color: #d35e37;
+   margin-bottom: 0.75rem;
 }
 
 .search-bar-container button:hover {
