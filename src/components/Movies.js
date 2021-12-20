@@ -8,9 +8,13 @@ const Movies = ({Title, Year, Poster, Type }) => {
 
    return (
       <div className="card-body">
-
-         <img className="card-img" src={Poster} alt="Movie Poster" />
-         <h4 className="card-title">{Title}</h4>
+        <div className='card-img-container'>
+           <img className="card-img" src={Poster} alt="Movie Poster" />
+        </div>
+        <div className='card-title-container'>
+           <h4 className="card-title">{Title}</h4>
+        </div>
+  
 
          <div className="overlay">
             <div className="contents">
