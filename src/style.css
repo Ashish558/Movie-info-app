@@ -323,7 +323,7 @@ nav .lists img {
 .movies .card-body {
   padding: 0;
   margin: 0;
-  background: orange;
+  background: #ed9090;
   border-radius: 0.3rem;
   overflow: hidden;
   position: relative;
@@ -387,7 +387,7 @@ nav .lists img {
 
 .movies .card-title {
   margin: 0;
-  padding: 0;
+  padding: 0 0.2rem;
   margin: 0.5rem 0;
 }
 
