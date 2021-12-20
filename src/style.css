@@ -87,21 +87,20 @@ nav .lists img {
 }
 
 .search-bar-container button {
-  outline: none;
-  padding: 0.6rem 0.75rem;
-  border: none;
-  margin-left: 0.5rem;
-  transition: 0.2s;
-  background: #e0896c ;
-  background: transparent;
-  border: 2px solid #d47b5d;
-  color: #d35e37;
-   margin-bottom: 0.75rem;
+    outline: none;
+    padding: .6rem .75rem;
+    margin-left: .5rem;
+    transition: .2s;
+    background: #e0896c;
+    background: #bfe3ff;
+    border: 0;
+    border-radius: 0.4rem;
+    color: #ffffff;
+    margin-bottom: .75rem;
 }
 
 .search-bar-container button:hover {
-  background: #b4431d;
-  color: #fff;
+  background: #9bc0dd;
 }
 
 /*  MOVIE  */
