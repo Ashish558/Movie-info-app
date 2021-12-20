@@ -33,7 +33,8 @@ body {
 /*  navbar  */
 
 .nav-header {
-  background: #e9967a;
+  background: #fafafa;
+  border-bottom: 1px solid #e7e7e7;
   padding: 0.5rem;
   display: flex;
   align-items: center;
@@ -72,7 +73,7 @@ nav .lists img {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .search-bar-container input {
@@ -81,7 +82,8 @@ nav .lists img {
   padding: 0.5rem;
   border: 0;
   border-bottom: 1.5px solid black;
-   margin-bottom: 0.75rem;
+  margin-bottom: 0.75rem;
+  background: transparent;
 }
 
 .search-bar-container button {
@@ -228,11 +230,10 @@ nav .lists img {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
   font-size: 2.2rem;
   padding: 6rem 0;
-  background: #ffffff;
-  color: rgb(0, 0, 0);
+  background: #fafafa;
+  color: #767676;
 }
 
 .loading-container .loading .letter {
