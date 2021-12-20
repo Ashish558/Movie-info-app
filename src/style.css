@@ -91,16 +91,16 @@ nav .lists img {
     padding: .6rem .75rem;
     margin-left: .5rem;
     transition: .2s;
-    background: #e0896c;
-    background: #bfe3ff;
+    background: #ede;
+    background: #ed9090;
     border: 0;
     border-radius: 0.4rem;
-    color: #4f6495;
+    color: #fff;
     margin-bottom: .75rem;
 }
 
 .search-bar-container button:hover {
-  background: #9bc0dd;
+  background: #cd7c7c;
 }
 
 /*  MOVIE  */
@@ -327,6 +327,11 @@ nav .lists img {
   border-radius: 0.3rem;
   overflow: hidden;
   position: relative;
+}
+
+.card-img-container {
+    max-height: 400px;
+    overflow: hidden;
 }
 
 .movies .card-img {
