@@ -154,7 +154,7 @@ nav .lists img {
 
 .movie-container .contents-container {
   padding: 0;
-  background: #ffffff;
+  background: transparent;
 }
 
 .flex {
@@ -236,7 +236,7 @@ nav .lists img {
   align-items: center;
   font-size: 2.2rem;
   padding: 6rem 0;
-  background: #fafafa;
+  background: transparent;
   color: #767676;
 }
 
@@ -526,4 +526,7 @@ button:active, button:focus {
   .nav-header {
     padding: 1rem 2re.;
   }
+  .movie-container .movie-img {
+    max-height: 700px;
+   }
 }
