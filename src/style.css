@@ -28,24 +28,27 @@ li {
 
 body {
   background: rgb(250, 250, 250);
+  background: linear-gradient(to right, #ff6e7fad, #bfe9ff);
 }
+
 
 /*  navbar  */
 
 .nav-header {
-  background: #fafafa;
-  border-bottom: 1px solid #e7e7e7;
-  padding: 0.5rem;
+  background: transparent;
+  padding: 1.1rem 0.75rem;
   display: flex;
   align-items: center;
+ border-bottom: 1px solid #000000;
 }
 
 .nav-header .nav-container {
-  padding: 0;
+  padding: 0.5rem 0;
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: none;
 }
 
 nav .lists {
@@ -75,6 +78,7 @@ nav .lists img {
   align-items: center;
   flex-wrap: wrap;
   margin: 0 auto;
+  max-width: 600px;
 }
 
 .search-bar-container input {
@@ -488,7 +492,7 @@ button:active, button:focus {
 
 @media screen and (min-width: 768px) {
   .nav-header {
-    padding: 1rem 0;
+    padding: 1rem;
   }
   .movie-container {
     margin-top: 2rem;
