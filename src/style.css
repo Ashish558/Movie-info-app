@@ -292,7 +292,7 @@ nav .lists img {
 /* MOVIES LIST */
 
 .movies-container {
-  background: #fff;
+  background: transparent;
 }
 
 .movies-container .movies {
