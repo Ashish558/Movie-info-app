@@ -492,7 +492,7 @@ button:active, button:focus {
 
 @media screen and (min-width: 768px) {
   .nav-header {
-    padding: 1.3rem 1rem;
+    padding: 1rem 1rem;
   }
   .movie-container {
     margin-top: 2rem;
@@ -524,7 +524,7 @@ button:active, button:focus {
 
 @media screen and (min-width: 992px) {
   .nav-header {
-    padding: 1rem 2re.;
+    padding: 1rem 2rem;
   }
   .movie-container .movie-img {
     max-height: 700px;
