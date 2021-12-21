@@ -166,7 +166,7 @@ nav .lists img {
 .movie-container .contents .title {
   align-items: center;
   margin-bottom: 1rem;
-  color: var(--light-blue);
+  color: #337a9b;
 }
 
 .movie-container .contents .title h3 {
