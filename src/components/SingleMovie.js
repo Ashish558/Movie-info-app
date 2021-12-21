@@ -94,7 +94,7 @@ function SingleMovie(props) {
                      </div>
                   </div>
                   <Link to="/">
-                     <img src="./icons/arrow-left.png" className="back-button" alt="back" />
+                     <img src="/arrow-left.png" className="back-button" alt="back" />
                   </Link>
                </div>
 
