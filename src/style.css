@@ -121,7 +121,7 @@ nav .lists img {
 }
 
 .movie-container .movie-img {
-  width: 90%;
+  width: 100%;
   position: relative;
   z-index: 6;
 }
@@ -480,6 +480,12 @@ button:active, button:focus {
   pointer-events: none;
 }
 
+@media screen and (max-width: 768px) {
+  .movie-container .movie-img {
+    max-width: 500px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .nav-header {
     padding: 1rem 0;
@@ -490,7 +496,7 @@ button:active, button:focus {
   .movie-container .contents-container {
     display: flex;
     align-items: center;
-    padding: 0 3rem;
+    padding: 0 1.5rem;
   }
   .movie-container .contents .info {
     margin-bottom: 1.5rem;
